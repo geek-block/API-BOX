@@ -1,0 +1,60 @@
+.buttons .el-button {
+  line-height: 0;
+
+}
+
+.buttons {
+  margin: -12px 40px 0 0;
+}
+
+.el-tree {
+  top: -24px;
+}
+.interface .interface-api-list .cell {
+  padding-top: 1px;
+}
+.interface .tab-header{margin-bottom: 0;}
+.interface .tab-header .second{width: 1.63rem;}
+.interface .el-dialog__body{padding: 10px 20px}
+.interface .buttons .el-button{font-size: 12px;}
+.interface .el-dialog__header{display: flex;}
+.interface .el-table{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+}
+.interface .el-upload-list__item-name {
+  text-align: left;
+  font-size: 0.14rem;
+}
+.interface .el-upload-list__item .el-icon-close{
+  top: 14px;
+}
+.interface .el-dialog .el-dialog__header{
+  padding: 14px 20px 0;
+}
+.interface .el-dialog .el-dialog__header .el-dialog__headerbtn{
+  top: 14px;
+}
+.interface .same-api-name .el-dialog__footer {
+  font-size: 12px;
+}
+.interface .item-badge .el-badge__content.is-fixed{
+  top: 10px;
+  right: 0px;
+}
+.interface .item-badge .el-badge__content.is-fixed{
+  background-color: #67C23A;
+  right: 2px;
+  top: 3px;
+}
+.interface .item-badge.item-badge-old .el-badge__content.is-fixed{
+  background-color: #FF7F27;
+  right: 2px;
+  top: 3px;
+}
+.api-icon-refresh{
+  height: 0.17rem;
+  width: 0.17rem;
+  cursor: pointer;
+}
