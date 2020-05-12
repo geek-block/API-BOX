@@ -1,0 +1,120 @@
+.bgImgg {
+  background-image: url("../images/login1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  position:relative;
+  background-color: #27293d;
+}
+.bgImg .el-dialog__header{display: flex;}
+.bgImg .el-dialog__body{height: 50vh;overflow: hidden;overflow-x: hidden;overflow-y: scroll;}
+.bgImg .el-dialog__body::-webkit-scrollbar {display: none;}
+.loginInputt{
+  /*width: 690px;*/
+  /*height: 690px;*/
+  text-align: center;
+  /*border-radius: 10px;*/
+  /*border-radius: 50%;*/
+  /*margin: auto;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+}
+.loginInputt h1{
+  margin-top: 94px;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.loginInputt hr{
+  height:0px;
+  border-top:1px solid rgba(236,245,255,.4);
+  border-right:0px;
+  border-bottom:0px;
+  border-left:0px;
+}
+.centert{
+  width: 4.18rem;
+  height: 660px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.login-formt{
+  margin-top:52px;
+}
+.login-formt input{height: 0.6rem;border-radius: 5px;font-size: 0.18rem;}
+.login-formt .el-col-12 {width: 100%;height: 100%;}
+.login-formt .verifyCode {height: 0.6rem;}
+.login-formt .verifyCode input{width: 100%;height: 100%;}
+.login-formt .el-col.el-col-10{position: absolute;right: 0;display: flex;top:0;}
+.login-formt .el-col.el-col-10 img{height: 0.6rem;}
+
+.validateImg{
+  border: 1px solid #999999;
+  cursor: pointer;
+  width: 90%;
+  height: 100%;
+  /* line-height: ; */
+  margin-left: 20px;
+}
+.el-icon-refresh{
+  color: #ffffff;
+  font-size: 16px;
+  width: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  cursor: pointer;
+
+}
+.submitt{
+  margin-bottom: 0;
+}
+.login-formt .submitButtont {font-size: 20px;width: 100%;margin-bottom: 0;margin-top: 10px;padding: 0;height: 0.6rem;border-radius: 0.31rem;}
+.bottomTipt{
+  width: 80%;
+  margin: 4px auto 0;
+}
+.bottomTipt p{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  font-size: 12px;
+  color: #409EFF;
+}
+.bottomTipt .left{
+  text-align: left;
+}
+.bottomTipt .right{
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bottomTipt .right span{
+  color: #ffffff;
+}
+.bottomTipt a {
+  color: #409EFF;
+  text-decoration: none;
+}
+.bottomTipt a:hover {
+  color: #409EFF;
+  text-decoration: underline
+}
+
+.el-form-item .el-input__validateIcon{
+  font-size: 18px;
+}
+.bgImg.log .el-dialog__body{
+  font-size: 12px;
+}
+.xieyi-footer{
+  display: flex;
+  justify-content: flex-end;
+}

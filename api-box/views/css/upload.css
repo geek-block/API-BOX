@@ -1,0 +1,162 @@
+
+.cent{
+  width:6.9rem;
+  height: 6.26rem;
+  text-align: center;
+  border-radius: 1px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2371AA;
+}
+
+.headerr {
+  background-color: #316a96;
+  color: beige;
+  letter-spacing: 2px;
+  height: 1.6rem;
+  left: 0;
+  line-height: 70px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.headerr i{width: 0.31rem;height: 0.32rem;display: block;}
+.headerr .headerr-back{background: url("../images/upload-back.png") no-repeat;background-size: cover;}
+.headerr >div:nth-child(1) {height: 100%;display: flex;align-items: center;justify-content: space-between;padding-left: 0.38rem;padding-right: 0.38rem;}
+.headerr >.xf {z-index: 100;display: flex;justify-content: center;position: relative;top: -0.35rem;}
+.headerr .el-icon-back {display: block;width: 0.3rem;height: 0.3rem;font-size: 0.3rem;}
+.headerr span{font-size: 0.35rem;color: #ffffff;}
+.certificate-icon {
+  background-image: url("../images/shouquan.png");
+  height: 0.74rem;
+  width: 0.74rem;
+  background-size: cover;
+}
+.login-icon {
+  background-image: url("../images/user2.png");
+  height: 0.74rem;
+  width: 0.74rem;
+  background-size: cover;
+}
+.el-icon-message {
+  font-size: 50px;
+  margin: 7px 29px 29px 5px;
+  color: rgb(18, 150, 219);
+
+}
+
+.foot {
+  bottom: 40px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width:100%;
+  font-size: 12px;
+
+}
+
+.footer {
+  margin-bottom: 42px;
+  position: relative;
+  top: 1.6rem;
+  font-size: 12px;
+  display: flex;
+  background-color: #2371AA;
+}
+.footer .el-form-item__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backIndex .el-form-item__content{
+  justify-content: flex-start;
+}
+
+.send {
+  color: #d5d1d1;
+  position: relative;
+  top: -10px;
+  width: 100%;
+  font-size: 0.14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.send p {display: flex;flex-direction: column;text-align: justify;width: 4.9rem;color: #fff;}
+.response{display: flex;justify-content: center;}
+/*.response i{width: 0.24rem;height: 0.28rem;background: url("../images/password_icon.png") no-repeat center;background-size: cover;position: absolute;left: 0.1rem;z-index: 99;}*/
+/*.response i:after {content: '';display: block;width: 1px;height: 0.36rem;position: absolute;right: -0.05rem;top: -0.04rem;z-index: 8888;background: rgba(72,72,72,1);}*/
+.response .upload-demo{display: flex;flex-direction: row-reverse;width: 4.9rem;justify-content: space-between;height: 0.6rem;}
+.response .el-upload-list__item:first-child{margin-top: 0.1rem;}
+.response .el-upload-list__item-name, .el-icon-document{color: #ffffff;}
+.response .el-upload-list__item.is-success .el-upload-list__item-status-label{top: 0.15rem;}
+.response .el-upload-list__item .el-icon-close{top: 0.2rem;}
+.response input {
+  padding-left: 0.5rem;
+  background: rgba(255, 255, 255, 0.67);
+}
+.form .el-input__inner,
+.btn {
+  width: 100%;
+  font-size: 0.16rem;
+  /*margin-top: 10px;*/
+}
+
+.btn {
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center
+}
+
+.el-form-item__error {
+  color: #f56c6c;
+  font-size: 12px;
+  line-height: 1;
+  padding-top: 5px;
+  margin-left: 40px;
+}
+
+.hq {display: flex;justify-content: center;width: 4.9rem;position: relative;align-items: center}
+/*.hq .el-input {width: 4.9rem;height: 0.59rem;line-height: 0.59rem;}*/
+.hq .el-input input{padding-left: 0.5rem;background: rgba(255, 255, 255, 0.67);border-radius: 8px;font-size: 0.16rem;height: 0.6rem;line-height: 0.6rem;}
+.hq .el-input input::-webkit-input-placeholder{color: #A4A4A5}
+.hq .el-input input::-moz-placeholder{color: #A4A4A5}
+.hq .el-input input::-ms-input-placeholder{color: #A4A4A5}
+.hq .hq-icon1 {width: 0.28rem;height: 0.28rem;background: url("../images/shenqingma.png") no-repeat center;position: absolute;left: 0.1rem;background-size: cover;z-index: 99;}
+.hq .hq-icon1:after {content: '';display: block;width: 1px;height: 0.36rem;position: absolute;right: -0.05rem;top: -0.04rem;z-index: 8888;background: rgba(72,72,72,1);
+}
+.huoqu {
+  right: 0;
+  position: absolute;
+  font-size: 0.16rem;
+  width: 1.16rem;
+  height: 0.6rem;
+  border-radius: 0.08rem;
+  padding: 0;
+  background-color: #12CC68;
+  color: #fff;
+  /*border: 1px dashed #2371AA;*/
+}
+.error{width: 4.9rem;height: 0.6rem;background: rgba(255, 255, 255, 0.67);border-radius: 8px;font-size: 0.16rem;}
+.error i {}
+.error input {height: 0.6rem;font-size: 0.16rem;}
+.el-form-item__error{
+  margin-left: 0;
+}
+.huoqu span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoot{position: absolute;width: 100%;bottom: 0;}
+.infoot p {
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  text-align: initial;
+}
