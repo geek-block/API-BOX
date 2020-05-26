@@ -1,5 +1,5 @@
-*.js linguist-language=go;javascript
+*.js linguist-language=go
 
-*.css linguist-language=go;javascript
+*.css linguist-language=go
 
-*.html linguist-language=go;javascript
+*.html linguist-language=go
